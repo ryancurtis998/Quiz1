@@ -12,3 +12,9 @@
 
 ##Demo
 * Here is a link to the webpage:https://ryancurtis998.github.io/Quiz1/
+
+##Methods used
+* use of chrome
+* use of javascript
+* use of css
+* use of Bootstrap
