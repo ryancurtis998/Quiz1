@@ -1,5 +1,5 @@
-##QUIZ-BOARD
-##Description
+## QUIZ-BOARD
+## Description
 * Project : Quiz Board
 
 * Behavior Driven Development
@@ -10,15 +10,15 @@
 * Calculates the user input values
 * Awards the works based on correct answers
 
-##Demo
+## Demo
 * Here is a link to the webpage:https://ryancurtis998.github.io/Quiz1/
 
-##Methods used
+## Methods used
 * use of chrome
 * use of javascript
 * use of css
 * use of Bootstrap
 
-##Author
+## Author
 * Author: RYANCURTIS:ryancurtis998@yahoo.com
 * Date : friday 22 FEB 2019
