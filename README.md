@@ -18,3 +18,7 @@
 * use of javascript
 * use of css
 * use of Bootstrap
+
+##Author
+* Author: RYANCURTIS:ryancurtis998@yahoo.com
+* Date : friday 22 FEB 2019
