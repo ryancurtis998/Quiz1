@@ -1,0 +1,70 @@
+.container {
+  margin-left: 260px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+p {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 30px;
+}
+line-1{
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 280%;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 2s 1 normal both,
+             blinkTextCursor 900ms steps(66) infinite normal;
+             animation-iteration-count: infinite;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+#display{
+  display: none;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #224;
+  overflow-x: hidden;
+  padding-top: 20px;
+text-align: center;
+
+  /* -webkit-transition: margin-left 2s;
+ transition: margin-left 2s; */
+}
+/*
+.sidenav:hover {
+  margin-left: 600px;
+} */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Black And White Picture', sans-serif;
+  color: #818181;
+  display: block;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <title> QUIZ BOARD</title>
+
+  </head>
+  <body>
+    <div id="questions">
+    <div class="sidenav">
+
+
+      <a href="#about">QUIZ BOARD</a>
+
+
+      <br><br>
+
+
+</div>
+
+<div class="container">
+    <form class="quiz">
+
+      <div class="question1">
+        <p>1. Inside which element do we put javascript</p>
+        <label> <input type="radio" name="question1" value="10"> head </label>
+        <label> <input type="radio" name="question1" value="0"> body </label>
+        <label> <input type="radio" name="question1" value="0"> footer </label>
+      </div>
+
+      <div class="question2">
+      <p>2. What is the correct syntax for referring to an external an external script called "xxx.js"</P>
+        <label> <input type="radio" name="question2" value="10">script name ="xxx.js"</label>
+        <label> <input type="radio" name="question2" value="0">script href ="xxx.js" </label>
+        <label> <input type="radio" name="question2" value="0">script src = "xxx.js"</label>
+      </div>
+
+
+  <div class="question3">
+      <p> 3.How do we write "hello" in a alert box</p>
+        <label> <input type="radio" name="question3" value="10"> alert("hello")</label>
+        <label> <input type="radio" name="question3" value="0">alertBox("hello") </label>
+        <label> <input type="radio" name="question3" value="0">msg(hello) </label>
+      </div>
+
+  <div class="question4">
+        <p>4.How can we comment on javascript</p>
+        <label> <input type="radio" name="question4" value="0"> //This is a comment </label>
+        <label> <input type="radio" name="question4" value="10">< !--This is a comment--> </label>
+        <label> <input type="radio" name="question4" value="0">'This is a comment </label>
+      </div>
+
+  <div class="question5">
+        <p>5.How to insert a comment that has more than one line</p>
+        <label> <input type="radio" name="question5" value="0"> < !--This comment has more than one line--></label>
+        <label> <input type="radio" name="question5" value="10">//This comment has more than one line// </label>
+        <label> <input type="radio" name="question5" value="0">/*This comment has more than one line*/ </label>
+      </div>
+
+  <div class="question6">
+        <p>6.What is the correct way to write a javascript array</p>
+        <label> <input type="radio" name="question6" value="0">var colors = "red", "green", "blue" </label>
+        <label> <input type="radio" name="question6" value="0"> var colors = (1:"red", 2:"green", 3:"blue")</label>
+        <label> <input type="radio" name="question6" value="10">var colors = ["red", "green", "blue"] </label>
+      </div>
+
+  <div class="question7">
+        <p>7.How do we round off the number 7.25 to the nearst integer</p>
+        <label> <input type="radio" name="question7" value="0">rnd(7.25) </label>
+        <label> <input type="radio" name="question7" value="0">Math.rnd(7.25) </label>
+        <label> <input type="radio" name="question7" value="10">Math.round(7.25) </label>
+      </div>
+
+  <div class="question8">
+      <p>8.Javascript is the same as java</p>
+        <label> <input type="radio" name="question8" value="10"> false</label>
+        <label> <input type="radio" name="question8" value="0">true </label>
+        <label> <input type="radio" name="question8" value="0">none </label>
+      </div>
+
+  <div class="question9">
+        <p>9.Which noperator is used to assign a value to a variable</p>
+        <label> <input type="radio" name="question9" value="0">rb25 </label>
+        <label> <input type="radio" name="question9" value="10">rb26 </label>
+        <label> <input type="radio" name="question9" value="0">rb27 </label>
+      </div>
+
+        <div class="question10">
+        <p>10.What will the following code return : Bolean(10< 9)</p>
+        <label> <input type="radio" name="question10" value="0">true </label>
+        <label> <input type="radio" name="question10" value="0">NaN </label>
+        <label> <input type="radio" name="question10" value="10">false </label>
+
+
+      <p> <input type="button" name="" value="Get score"> </p>
+
+      <p id="result"></p>
+
+     </form>
+</div>
+  </body>
+
+</html>
